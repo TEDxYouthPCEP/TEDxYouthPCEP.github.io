@@ -1,4 +1,7 @@
 @import "variable";
+body {
+	margin: 0;
+}
 .nav {
 	display: flex;
 	flex-direction: row-reverse;
@@ -30,32 +33,41 @@
 	top: 0;
 	left: 0;
 }
-.footer {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	width: 100%;
-	background-color: $neutral_black;
-	font-family: "Arial";
-	a {
-		color: #FFF;
-		text-decoration: none;
-	}
-	ul,p {
-		margin: 16px;
-		color: #FFF;
-	}
-}
 .body_center {
-	margin-top: 65px;
+	margin-top: 72px;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 64px;
+	overflow: visible;
 	h1 {
-		font-family: "Raleway", "Arial";
+		font-family: "Merriweather", "Times new roman", "Georgia", serif;
 		font-size: 40px;
 		font-weight: 300;
 		text-align: center;
 	}
 	p {
-		font-family: "Arial";
+		font-family: "Arial", "Helvetica", sans-serif;
+	}
+}
+.footer {
+	width: 100%;
+	overflow: auto;
+	padding: 16px;
+	box-sizing: border-box;
+	background-color: $neutral_black;
+	font-family: "Arial", "Helvetica", sans-serif;
+	a {
+		color: #FFF;
+		text-decoration: none;
+		margin: 0;
+	}
+	ul,p {
+		margin: 0;
+		color: #FFF;
+	}
+	.column {
+		display: inline-block;
+		float: left;
+		width: 33.3%;
 	}
 }
