@@ -1,2 +1,2 @@
-
+.nav{display:flex;flex-direction:row-reverse;width:100%;background-color:#e62b1e;top:0;left:0;position:fixed;align-items:center}.nav a{text-decoration:none;color:#000}.nav div{flex-grow:1;padding:16px;font-size:24px;font-family:"Arial"}.nav div:hover{background-color:rgba(255,255,255,0.5)}.logo{position:absolute;top:0;left:0}
 /*# sourceMappingURL=main.css.map */
