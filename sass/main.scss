@@ -68,6 +68,7 @@ body {
 	width: 100%;
 	overflow: auto;
 	padding: 16px;
+	padding-top: 0px;
 	box-sizing: border-box;
 	background-color: $neutral_black;
 	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -88,5 +89,6 @@ body {
 	div {
 		display: inline-block;
 		width: 100%;
+		padding-top: 16px;
 	}
 }
